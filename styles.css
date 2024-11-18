@@ -1,8 +1,7 @@
 .holder {
     display: flex; /* Enables Flexbox layout */
-	  justify-content: center;
     flex-wrap: wrap; /* Allows items to wrap to the next row when necessary */
-    justify-content: space-between; /* Evenly spaces items with gaps between */
+    justify-content: space-evenly; /* Evenly spaces items with gaps between */
     gap: 10px; /* Adds spacing between items */
     width: 100%; /* Ensures the holder spans the full width of its container */
     box-sizing: border-box; /* Ensures padding and border are included in the width/height */
