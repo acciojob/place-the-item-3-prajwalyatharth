@@ -1,5 +1,6 @@
 .holder {
     display: flex; /* Enables Flexbox layout */
+	  justify-content: center;
     flex-wrap: wrap; /* Allows items to wrap to the next row when necessary */
     justify-content: space-between; /* Evenly spaces items with gaps between */
     gap: 10px; /* Adds spacing between items */
